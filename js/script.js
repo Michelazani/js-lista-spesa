@@ -10,7 +10,7 @@ let i = 0;
 
  //! ciclo FOR
  for (let i = 0 ; i < groceryList.length; i++){
-    const createElement = document.createElement ('div');
+    const createElement = document.createElement ('p');
     const elementFather = document.querySelector ('section');
     elementFather.appendChild (createElement);
     console.log (groceryList [i]); 
@@ -25,7 +25,7 @@ let i = 0;
 // //! ciclo WHILE
 
 while (i < groceryList.length){
-    const createElement = document.createElement ('div');
+    const createElement = document.createElement ('p');
     const elementFather = document.querySelector ('section');
     elementFather.appendChild (createElement);
     console.log (groceryList [i]); 
